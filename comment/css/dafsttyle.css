@@ -1,0 +1,6 @@
+@charset "utf-8";
+body{margin:0;padding:0;position: relative;overflow: hidden;font-family: arial,"微软雅黑";font-size: 26px;}
+ul,dd,p{margin:0;padding:0;}
+li{list-style:none;}
+div,p,li{font-family: arial,"微软雅黑";font-size: 26px;color:#333;}
+img,a{border:0;}
