@@ -2,8 +2,10 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
+		<meta name="viewport" content="width=640,user-scalable=no"/>
 		<title>Way cattle</title>
 		<link rel="stylesheet" type="text/css" href="css/cattle.css"/>
+		<script type="text/javascript" src="js/wayfile.js"></script>
 	</head>
 	<body>
 		<script type="text/javascript">
@@ -21,13 +23,13 @@
 		</div>
 		
 		<!--轮播-->
-		<div class="shuffl">
-			<ul>
+		<div class="shuffl" id="shuff">
+			<ul class="picture_list">
 				<li><img src="img/shuffl1.jpeg"/></li>
 				<li><img src="img/shuffl2.jpeg"/></li>
 				<li><img src="img/shuffl3.jpeg"/></li>
 			</ul>
-			<div class="dot">
+			<div class="dot active">
 				<span class="active"></span>
 				<span></span>
 				<span></span>
@@ -284,14 +286,6 @@
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
 		<script type="text/javascript">
 			window.onload = window.onresize = function(){
 			
@@ -314,6 +308,10 @@
 			}
 			
 			
+		</script>
+		
+		<script type="text/javascript">
+			fnIndex();
 		</script>
 	</body>
 </html>

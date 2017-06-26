@@ -20,7 +20,7 @@ ul li{list-style: none;}
 
 /*轮播图*/
 .shuffl{width: 100%;height: 5.06rem;overflow: hidden;position: relative;}
-.shuffl ul{width: 300%;height: 5.05rem;position: absolute;display: flex;flex-wrap: wrap;}
+.shuffl ul{width: 300%;height: 5.05rem;display: flex;}
 .shuffl ul li{width: 33.334%;height: 5.05rem;}
 .shuffl ul li img{width: 18rem;height: 5.05rem;}
 .shuffl .dot{width: 1.5rem;height: 0.3rem;position: absolute;left: 0;right: 0;bottom: 0.5rem;margin: 0 auto;}
