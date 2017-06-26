@@ -2,7 +2,7 @@ function hunt(data){
 	var ipt = $('#txt');
 	var list = $('#list');
 	var str = '';
-
+console.log(data);
 	for(var i = 0; i < data.count; i++) {
 		str += '<li class="cleafix">'+
 			'<a href="javascript:;" id="'+data.musics[i].id+'">'+
