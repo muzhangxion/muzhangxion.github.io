@@ -1,0 +1,1 @@
+System.register(["./get-intrinsic-legacy-nVwaK6BW.js"],(function(t,e){"use strict";var r;return{setters:[t=>{r=t.g}],execute:function(){var e=r("%Object.getOwnPropertyDescriptor%",!0);if(e)try{e([],"length")}catch(c){e=null}t("g",e)}}}));

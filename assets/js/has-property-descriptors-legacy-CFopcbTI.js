@@ -1,0 +1,1 @@
+System.register(["./es-define-property-legacy-BUIcoJQT.js"],(function(e,r){"use strict";var t;return{setters:[e=>{t=e.r}],execute:function(){var r=t(),n=function(){return!!r};n.hasArrayLengthDefineBug=function(){if(!r)return null;try{return 1!==r([],"length",{value:1}).length}catch(e){return!0}},e("h",n)}}}));
